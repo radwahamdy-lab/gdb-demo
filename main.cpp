@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <cstring>
 
-char* buf;
+char buf[100];
 
 int sum_to_n(int num) {
   int i, sum = 0;
